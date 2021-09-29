@@ -9,7 +9,7 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "io.wolf3d.unity-webview": {
+    "io.wolf3d.webview": {
       "version": "file:RPM WebView",
       "depth": 0,
       "source": "embedded",

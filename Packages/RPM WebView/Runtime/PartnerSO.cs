@@ -1,18 +1,21 @@
 using UnityEngine;
 
-public class PartnerSO : ScriptableObject
+namespace ReadyPlayerMe
 {
-    private const string DefaultSubdomain = "demo";
-
-    public string Subdomain = null;
-
-    public string GetUrl()
+    public class PartnerSO : ScriptableObject
     {
-        return $"https://{GetSubdomain()}.readyplayer.me/avatar";
-    }
+        private const string DefaultSubdomain = "demo";
 
-    public string GetSubdomain()
-    {
-        return Subdomain ?? DefaultSubdomain;
+        public string Subdomain = null;
+
+        public string GetUrl()
+        {
+            return $"https://{GetSubdomain()}.readyplayer.me/avatar";
+        }
+
+        public string GetSubdomain()
+        {
+            return Subdomain ?? DefaultSubdomain;
+        }
     }
 }
