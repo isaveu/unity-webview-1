@@ -1,8 +1,10 @@
 The zlib License
 -------------------------------------
 Copyright (C) 2011 Keijiro Takahashi
+
 Copyright (C) 2012 GREE, Inc.
-Copyright (C) 2021 Wolf3D
+
+Copyright (C) 2021 Wolf3D OU
 
 This software is provided 'as-is', without any express or implied
 warranty.  In no event will the authors be held liable for any damages
